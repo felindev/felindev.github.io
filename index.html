@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting point</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+        html, body {
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+        }
+        .centerme {
+            display:flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            align-items: center;
+            align-content: space-around;
+
+        }
+        .bigger-text {
+            font-size: 2vmax;
+            font-family: 'Arvo', serif;
+        }
+
+        .fancybox {
+            /* border: black 0.1em solid; */
+            /* border-radius: 1vmax; */
+            padding: 2em 0em;
+            background-color: rgba(255, 255, 255, 0.103);
+            backdrop-filter: blur(10px);
+            width: 100%;
+        }
+        .fancybox span, .fancybox h1 {
+            /* background: -webkit-linear-gradient(white, #38495a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; */
+            color: #fff;
+            text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        }
+        
+        .glow {
+            background: rgb(0,139,207);
+            background: radial-gradient(circle at 66%125%, rgba(0,139,207,1) 5%, rgba(28,2,70,1) 50%, rgba(0,0,0,1) 64%);
+        }
+    </style>
+</head>
+<body class="centerme glow">
+    <div class="fancybox centerme bigger-text">
+        <h1 style="margin-top: 0px">There's nothing here yet!</h1>
+        <span>Check later! There sure are things to come</span>
+    </div>
+</body>
+</html>
